@@ -1,0 +1,37 @@
+.App {
+	text-align: center;
+}
+
+.Wrapper {
+	/* border: solid black 1px; */
+	max-width: 500px;
+}
+
+.Row {
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+}
+
+.Square {
+	width: 50%;
+	/* background-color: red; */
+	border: 1px black solid;
+}
+
+.graph-wrapper {
+	width: 600px;
+	height: 500px;
+	background-color: pink;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+
+.graph-planet {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	height: 100%;
+}
